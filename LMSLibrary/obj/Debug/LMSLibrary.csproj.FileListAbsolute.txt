@@ -1,0 +1,14 @@
+C:\Users\Arjay\Documents\Lending Management System\LMSLibrary\bin\Debug\LMSLibrary.dll
+C:\Users\Arjay\Documents\Lending Management System\LMSLibrary\bin\Debug\LMSLibrary.pdb
+C:\Users\Arjay\Documents\Lending Management System\LMSLibrary\bin\Debug\System.Data.SQLite.dll
+C:\Users\Arjay\Documents\Lending Management System\LMSLibrary\bin\Debug\System.Data.SQLite.xml
+C:\Users\Arjay\Documents\Lending Management System\LMSLibrary\obj\Debug\LMSLibrary.dll
+C:\Users\Arjay\Documents\Lending Management System\LMSLibrary\obj\Debug\LMSLibrary.pdb
+C:\Users\Arjay\Documents\Lending Management System\LMSLibrary\obj\Debug\LMSLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Arjay\Documents\Systems\Lending Management System\LMSLibrary\obj\Debug\LMSLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Arjay\Documents\Systems\Lending Management System\LMSLibrary\obj\Debug\LMSLibrary.dll
+C:\Users\Arjay\Documents\Systems\Lending Management System\LMSLibrary\obj\Debug\LMSLibrary.pdb
+C:\Users\Arjay\Documents\Systems\Lending Management System\LMSLibrary\bin\Debug\LMSLibrary.dll
+C:\Users\Arjay\Documents\Systems\Lending Management System\LMSLibrary\bin\Debug\LMSLibrary.pdb
+C:\Users\Arjay\Documents\Systems\Lending Management System\LMSLibrary\bin\Debug\System.Data.SQLite.dll
+C:\Users\Arjay\Documents\Systems\Lending Management System\LMSLibrary\bin\Debug\System.Data.SQLite.xml

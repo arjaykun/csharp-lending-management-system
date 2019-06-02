@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{98D87AD4-0A16-476B-873B-2F41B3248226}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lending_Management_System</RootNamespace>
+    <AssemblyName>Lending Management System</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialSkin.0.2.1\lib\MaterialSkin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework">
+      <HintPath>..\..\Visual Studio 2015\Projects\HomeVCS\HomeVCSProjects\LoanManagementSystem\LoanManagementSystem\bin\Debug\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design">
+      <HintPath>..\..\..\Desktop\Vb.net\HIS\HIS\bin\Debug\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts">
+      <HintPath>..\..\..\Desktop\Vb.net\HIS\HIS\bin\Debug\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.109.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Core.1.0.109.2\lib\net451\System.Data.SQLite.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBorrowers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBorrowers.Designer.cs">
+      <DependentUpon>frmBorrowers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChooseBorrower.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChooseBorrower.Designer.cs">
+      <DependentUpon>frmChooseBorrower.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCollectables.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCollectables.Designer.cs">
+      <DependentUpon>frmCollectables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCollections.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCollections.Designer.cs">
+      <DependentUpon>frmCollections.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfig.Designer.cs">
+      <DependentUpon>frmConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDashboard.Designer.cs">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNewLoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewLoan.Designer.cs">
+      <DependentUpon>frmNewLoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrintCollections.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintCollections.Designer.cs">
+      <DependentUpon>frmPrintCollections.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrintReceipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintReceipt.Designer.cs">
+      <DependentUpon>frmPrintReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRemittance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRemittance.Designer.cs">
+      <DependentUpon>frmRemittance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSummary.Designer.cs">
+      <DependentUpon>frmSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewBorrowers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewBorrowers.Designer.cs">
+      <DependentUpon>frmViewBorrowers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmPrintReceipt.resx">
+      <DependentUpon>frmPrintReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Receipt.rdlc" />
+    <None Include="Properties\DataSources\LMSLibrary.Classes.CollectionModel.datasource" />
+    <None Include="Properties\DataSources\LMSLibrary.Classes.LedgerModel.datasource" />
+    <None Include="Resources\appbar.clock.png" />
+    <None Include="Resources\appbar.calendar.png" />
+    <None Include="Resources\appbar.gauge.50.png" />
+    <None Include="Resources\53657255_262625554690736_7683626321368317952_n.jpg" />
+    <None Include="Resources\52804156_309178573119044_5050212525925203968_n.gif" />
+    <None Include="Resources\appbar.eye.hide.png" />
+    <None Include="Resources\appbar.eye.png" />
+    <None Include="Resources\appbar.billing.png" />
+    <None Include="Resources\appbar.book.hardcover.open.writing.png" />
+    <None Include="Resources\appbar.refresh.png" />
+    <None Include="Resources\appbar.printer.png" />
+    <None Include="Resources\appbar.lock.png" />
+    <None Include="Resources\appbar.cursor.hand.png" />
+    <None Include="Resources\appbar.delete.png" />
+    <None Include="Resources\appbar.list.png" />
+    <None Include="Resources\default2.png" />
+    <None Include="Resources\default.jpg" />
+    <None Include="Resources\appbar.edit.box.png" />
+    <None Include="Resources\appbar.close.png" />
+    <None Include="Resources\appbar.magnify.png" />
+    <None Include="Resources\appbar.save.png" />
+    <None Include="Resources\appbar.people.png" />
+    <None Include="Resources\appbar.power.png" />
+    <None Include="Resources\appbar.book.list.png" />
+    <None Include="Resources\appbar.layer.up.png" />
+    <None Include="Resources\appbar.group.png" />
+    <None Include="Resources\appbar.layer.thick1.png" />
+    <None Include="Resources\appbar.add.png" />
+    <None Include="Resources\appbar.settings.png" />
+    <None Include="Resources\appbar.money.png" />
+    <EmbeddedResource Include="CollectionReport.rdlc" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBorrowers.resx">
+      <DependentUpon>frmBorrowers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChooseBorrower.resx">
+      <DependentUpon>frmChooseBorrower.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCollectables.resx">
+      <DependentUpon>frmCollectables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCollections.resx">
+      <DependentUpon>frmCollections.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfig.resx">
+      <DependentUpon>frmConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDashboard.resx">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewLoan.resx">
+      <DependentUpon>frmNewLoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintCollections.resx">
+      <DependentUpon>frmPrintCollections.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRemittance.resx">
+      <DependentUpon>frmRemittance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSummary.resx">
+      <DependentUpon>frmSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewBorrowers.resx">
+      <DependentUpon>frmViewBorrowers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Content Include="lms.db">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue-wallpaper-14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LMSLibrary\LMSLibrary.csproj">
+      <Project>{3398185c-8b17-4e18-8c2b-1ac84cdfe7f8}</Project>
+      <Name>LMSLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\System.Data.SQLite.Core.1.0.109.2\build\net451\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.109.2\build\net451\System.Data.SQLite.Core.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.109.2\build\net451\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.109.2\build\net451\System.Data.SQLite.Core.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

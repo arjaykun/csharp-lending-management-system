@@ -1,0 +1,7 @@
+C:\Users\Arjay\Documents\Lending Management System\LMSLibrary\bin\Release\LMSLibrary.dll
+C:\Users\Arjay\Documents\Lending Management System\LMSLibrary\bin\Release\LMSLibrary.pdb
+C:\Users\Arjay\Documents\Lending Management System\LMSLibrary\bin\Release\System.Data.SQLite.dll
+C:\Users\Arjay\Documents\Lending Management System\LMSLibrary\bin\Release\System.Data.SQLite.xml
+C:\Users\Arjay\Documents\Lending Management System\LMSLibrary\obj\Release\LMSLibrary.dll
+C:\Users\Arjay\Documents\Lending Management System\LMSLibrary\obj\Release\LMSLibrary.pdb
+C:\Users\Arjay\Documents\Lending Management System\LMSLibrary\obj\Release\LMSLibrary.csprojResolveAssemblyReference.cache
